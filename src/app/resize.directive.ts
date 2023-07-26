@@ -37,6 +37,6 @@ export class ResizeDirective {
     const incrTop = event.screenX - this.origin.x;
     const width = this.rectOld.width + incrTop;
 
-    this.div.style.width = (width < 250 ? 250 : width) + 'px';
+    this.div.style.width = (width < 150 ? 150 : width) + 'px';
   }
 }

@@ -1,0 +1,18 @@
+.left {
+  display: flex;
+  min-width: 250px;
+  border: 1px solid black;
+}
+
+.right {
+  min-width: 500px;
+  border: 1px solid black;
+}
+
+.cell-left-border {
+  z-index: 10px;
+  margin-left: auto;
+  width: 5px;
+  background-color: red;
+  cursor: e-resize;
+}
